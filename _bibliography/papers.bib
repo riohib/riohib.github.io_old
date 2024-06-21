@@ -4,6 +4,44 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ohib2024unmasking,
+  abbr={arxiv},
+  title={Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning},
+  author={Riyasat Ohib and Bishal Thapaliya and Gintare Karolina Dziugaite and Jingyu Liu and Vince Calhoun and Sergey Plis},
+  abstract={In this work, we propose Salient Sparse Federated Learning (SSFL), a streamlined approach for sparse federated learning 
+    with efficient communication. SSFL identifies a sparse subnetwork prior to training, leveraging parameter saliency scores computed
+    separately on local client data in non-IID scenarios, and then aggregated, to determine a global mask. Only the sparse model weights
+    are communicated each round between the clients and the server. We validate SSFL's effectiveness using standard non-IID benchmarks,
+    noting marked improvements in the sparsity--accuracy trade-offs. Finally, we deploy our method in a real-world federated learning 
+    framework and report improvement in communication time.
+    },
+  journal={arxiv},
+  year={2024},
+  selected={true},
+  html={https://arxiv.org/abs/2405.09037},
+}
+
+@article{ohib2024unmasking,
+  abbr={arxiv},
+  title={Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning},
+  author={Riyasat Ohib and Bishal Thapaliya and Gintare Karolina Dziugaite and Jingyu Liu and Vince Calhoun and Sergey Plis},
+  abstract={Recent advancements in neuroimaging have led to greater data sharing among the scientific community. However, institutions
+   frequently maintain control over their data, citing concerns related to research culture, privacy, and accountability. This creates
+    a demand for innovative tools capable of analyzing amalgamated datasets without the need to transfer actual data between entities.
+     To address this challenge, we propose a decentralized sparse federated learning (FL) strategy. This approach emphasizes local 
+     training of sparse models to facilitate efficient communication within such frameworks. By capitalizing on model sparsity and 
+     selectively sharing parameters between client sites during the training phase, our method significantly lowers communication 
+     overheads. This advantage becomes increasingly pronounced when dealing with larger models and accommodating the diverse resource 
+     capabilities of various sites. We demonstrate the effectiveness of our approach through the application to the Adolescent Brain 
+     Cognitive Development (ABCD) dataset.
+    },
+  journal={bioarxiv},
+  year={2024},
+  selected={false},
+  html={https://www.biorxiv.org/content/10.1101/2024.05.14.594167v1.abstract},
+}
+
+
 @article{eloy2023lowdim,
   abbr={NeurIPS DeepGen},
   title={Uncovering the latent dynamics of whole-brain fMRI tasks with a sequential variational autoencoder},

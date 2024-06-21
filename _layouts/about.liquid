@@ -39,6 +39,44 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+  
+  <!-- Image Grid (ADDED by ME) -->
+  <hr class="section-line">
+  
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="{{ 'assets/img/gt.png' | gt }}" alt="Image 1" style="margin-top: -20px; transform: scale(0.70);">
+      <div class="image-description" style="text-align: center; line-height: 0.3; margin-top: 0px; font-size: 14px;">
+        <p> Georgia Tech </p>
+        <p> Aug 2019 - Present </p>
+      </div>
+    </div>
+    <div class="image-item">
+      <img src="{{ 'assets/img/meta_ai.png' | meta_ai }}" alt="Image 1" style="margin-top: -5px; transform: scale(0.90);">
+        <div class="image-description" style="text-align: center; line-height: 0.3; margin-top: 12px; font-size: 14px;">
+          <p> FAIR at Meta AI</p>
+          <p> Summer 2022</p>
+        </div>
+    </div>
+    <div class="image-item">
+      <img src="{{ 'assets/img/dolby.png' | dolby }}" alt="Image 1" style="margin-top: -11px; transform: scale(0.77);">
+        <div class="image-description" style="text-align: center; line-height: 0.3; margin-top: -2px; font-size: 14px;">
+          <p> Dolby Labs</p>
+          <p> Summer 2024</p>
+        </div>
+    </div>
+      <div class="image-item">
+      <img src="{{ 'assets/img/trends.png' | trends }}" alt="Image 4" style="margin-top: 7px; transform: scale(0.90);">
+        <div class="image-description" style="text-align: center; line-height: 0.3; margin-top: 18px; font-size: 14px;">
+          <p> TReNDS Center</p>
+          <p> Aug 2019 - Present</p>
+        </div>
+    </div>
+    <!-- Add more image items as needed -->
+  </div>
+  
+  <!-- Below line -->
+  <hr class="section-line">
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
